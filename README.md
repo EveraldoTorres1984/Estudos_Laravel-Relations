@@ -1,0 +1,1 @@
+Estudo de Laravel com exemplos práticos de relacionamentos com banco de dados.
