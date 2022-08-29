@@ -1,0 +1,18 @@
+2022/08/29 08:16:59 [notice] 1#1: using the "epoll" event method
+2022/08/29 08:16:59 [notice] 1#1: nginx/1.20.0
+2022/08/29 08:16:59 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2022/08/29 08:16:59 [notice] 1#1: OS: Linux 5.15.0-46-generic
+2022/08/29 08:16:59 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/08/29 08:16:59 [notice] 1#1: start worker processes
+2022/08/29 08:16:59 [notice] 1#1: start worker process 31
+2022/08/29 08:16:59 [notice] 1#1: start worker process 32
+2022/08/29 08:16:59 [notice] 1#1: start worker process 33
+2022/08/29 08:16:59 [notice] 1#1: start worker process 34
+2022/08/29 08:16:59 [notice] 1#1: start worker process 35
+2022/08/29 08:16:59 [notice] 1#1: start worker process 36
+2022/08/29 08:16:59 [notice] 1#1: start worker process 37
+2022/08/29 08:16:59 [notice] 1#1: start worker process 38
+2022/08/29 10:51:04 [warn] 32#32: *52 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/00/0000000001 while reading upstream, client: 172.19.0.1, server: representante.karina.test, request: "POST /api/users HTTP/1.1", upstream: "fastcgi://172.19.0.4:9000", host: "localhost"
+2022/08/29 10:57:37 [warn] 31#31: *55 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/2/00/0000000002 while reading upstream, client: 172.19.0.1, server: representante.karina.test, request: "POST /api/users HTTP/1.1", upstream: "fastcgi://172.19.0.4:9000", host: "localhost"
+2022/08/29 12:07:33 [warn] 31#31: *100 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/3/00/0000000003 while reading upstream, client: 172.19.0.1, server: representante.karina.test, request: "POST /api/users HTTP/1.1", upstream: "fastcgi://172.19.0.4:9000", host: "localhost"
+2022/08/29 12:13:19 [warn] 31#31: *109 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/4/00/0000000004 while reading upstream, client: 172.19.0.1, server: representante.karina.test, request: "POST /api/users HTTP/1.1", upstream: "fastcgi://172.19.0.4:9000", host: "localhost"
