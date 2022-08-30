@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\AddressController;
+use App\Http\Controllers\InvoiceController;
 
 use Illuminate\Support\Facades\Route;
 
@@ -21,3 +22,5 @@ Route::get('/addresses/{id}', [AddressController::class, 'findOne']);
 
 //Incluir um novo endereço
 Route::post('/addresses', [AddressController::class, 'insert']);
+
+Route::post('/invoices', [InvoiceController::class, 'createInvoice']);
