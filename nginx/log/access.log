@@ -134,3 +134,4 @@
 172.19.0.1 - - [31/Aug/2022:11:13:25 -0300] "GET /api/invoices/3 HTTP/1.1" 500 926366 "-" "PostmanRuntime/7.29.2" "-"
 172.19.0.1 - - [31/Aug/2022:11:13:43 -0300] "POST /api/invoices HTTP/1.1" 201 143 "-" "PostmanRuntime/7.29.2" "-"
 172.19.0.1 - - [31/Aug/2022:11:14:01 -0300] "GET /api/invoices/1 HTTP/1.1" 200 449 "-" "PostmanRuntime/7.29.2" "-"
+172.19.0.1 - - [01/Sep/2022:08:57:09 -0300] "GET / HTTP/1.1" 200 17615 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36" "-"
